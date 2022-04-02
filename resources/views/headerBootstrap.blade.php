@@ -14,13 +14,13 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active text-white" aria-current="page" href="./PaginaPrincipal.html">Pagina principal</a>
+                    <a class="nav-link active text-white" aria-current="page" href="{{route('Principal')}}">Pagina principal</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active text-white" aria-current="page" href="./LugaresTuristicos.html">Lugares turisticos</a>
+                    <a class="nav-link active text-white" aria-current="page" href="{{route('Lugares')}}">Lugares turisticos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active text-white" aria-current="page" href="./AgendaViaje.html">Tramitar un viaje</a>
+                    <a class="nav-link active text-white" aria-current="page" href="{{route('Agenda')}}">Tramitar un viaje</a>
                   </li>
                   
                   
